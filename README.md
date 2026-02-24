@@ -21,10 +21,10 @@ Once the skill is added to your Agent configuration:
 Agent will likely run a search command like: `google_search("common pitfalls in microservices scaling").`
 3. Review the Draft:
 Agent will present a prompt: `"Act as a Senior Architect. Challenge my choice of database consistency models. Ask me to justify why a monolith wouldn't suffice..."`
-4. prompt refinement loop:
-  - `added constriant - we use posgresqlDB`
+4. Prompt refinement loop:
+  - `added constraint - we use PostgreSQL`
   - `I have refined the Socratic inquiry. Should I execute this to begin our dialogue or would you like to further adjust the technical focus?`
-6. Approve & Execute: `"Execute!"` <br>
+5. Approve & Execute: `"Execute!"` <br>
 Agent immediately switches modes: `"Understood. Before we discuss scaling, what specific failure domains are you trying to isolate by splitting your services?"`
 
 ## Why This Works
